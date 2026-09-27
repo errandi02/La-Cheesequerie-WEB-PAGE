@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La Cheesequerie · Cheesecakes cuites chez nous, à Tanger</title>
+<meta name="description" content="Cheesecakes cuites chez nous, à Tanger : basque, classique, Lotus et pistache. Gâteaux entiers sur commande 24 h à l’avance, en ligne ou sur WhatsApp.">
+<meta name="theme-color" content="#4A0E0E">
+<meta property="og:title" content="La Cheesequerie · Tanger">
+<meta property="og:description" content="Cheesecakes cuites chez nous, à deux pas de chez vous. Commandez en ligne ou sur WhatsApp.">
+<meta property="og:image" content="assets/pistache.jpg">
+<link rel="icon" type="image/png" href="assets/mascotte.png">
+<link rel="apple-touch-icon" href="assets/mascotte.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="lc-bar" aria-hidden="true"></div>
+
+<div class="announce"><span data-i18n="announce"></span></div>
+
+<header class="nav wrap" id="top">
+  <a href="#accueil" class="logo" aria-label="La Cheesequerie, Tanger">
+    <span class="logo-la">La</span>
+    <span class="logo-name">Cheesequerie</span>
+    <span class="logo-city">Tanger</span>
+    <svg class="spark lc-tw logo-spark" viewBox="0 0 40 40" aria-hidden="true"><use href="#spark"/></svg>
+  </a>
+  <nav class="nav-links" id="navLinks" aria-label="Menu">
+    <a href="#carte" data-i18n="navFlavors"></a>
+    <a href="#toppings">Toppings</a>
+    <a href="#commande" data-i18n="navOrder"></a>
+    <a href="#boutique" data-i18n="navShop"></a>
+    <a href="#contact" data-i18n="navContact"></a>
+    <div class="lang lang-menu" role="group" aria-label="Langue / Idioma">
+      <button type="button" data-lang="fr">FR</button>
+      <button type="button" data-lang="es">ES</button>
+    </div>
+  </nav>
+  <div class="nav-right">
+    <div class="lang lang-head" role="group" aria-label="Langue / Idioma">
+      <button type="button" data-lang="fr">FR</button>
+      <button type="button" data-lang="es">ES</button>
+    </div>
+    <a href="#commande" class="btn btn-clay btn-sm lc-btn cart-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6"/><circle cx="10" cy="20" r="1.3"/><circle cx="17" cy="20" r="1.3"/></svg>
+      <span class="hide-sm" data-i18n="cartBtn"></span><span>(<span class="js-count">0</span>)</span>
+    </a>
+    <button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="navLinks" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<!-- Portada -->
+<section id="accueil" class="hero wrap">
+  <div class="hero-text">
+    <p class="eyebrow lc-in"><span class="rule"></span><span data-i18n="eyebrow"></span></p>
+    <h1 class="lc-in lc-in2"><span data-i18n="h1a"></span> <em data-i18n="h1b"></em></h1>
+    <p class="lead lc-in lc-in3" data-i18n="lead"></p>
+    <div class="actions lc-in lc-in4">
+      <a href="#commande" class="btn btn-ink btn-lg lc-btn" data-i18n="ctaOrder"></a>
+      <a href="#" target="_blank" rel="noopener" class="btn btn-wa-outline btn-lg js-wa">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.6-4.7A9 9 0 1 1 8 20.2L3 21z"/></svg>
+        <span data-i18n="ctaWa"></span>
+      </a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <svg class="spark lc-tw" style="left:2%;top:8%;width:54px" viewBox="0 0 40 40" aria-hidden="true"><use href="#spark"/></svg>
+    <svg class="spark lc-tw lc-tw2" style="left:5%;bottom:18%;width:40px" viewBox="0 0 40 40" aria-hidden="true"><use href="#spark"/></svg>
+    <svg class="spark lc-tw lc-tw3" style="right:5%;top:34%;width:46px" viewBox="0 0 40 40" aria-hidden="true"><use href="#spark"/></svg>
+    <svg class="spark lc-tw lc-tw2" style="right:20%;top:4%;width:30px" viewBox="0 0 40 40" aria-hidden="true"><use href="#spark"/></svg>
+    <div class="lc-cake">
+      <div class="lc-pop"><img class="lc-bob" src="assets/mascotte.png" alt="La mascotte de La Cheesequerie qui sert un cheesecake" width="500" height="495"></div>
+    </div>
+    <div class="hero-badge lc-in lc-in4">
+      <span class="small" data-i18n="badgeTop"></span>
+      <strong data-i18n="badge"></strong>
+    </div>
+  </div>
+</section>
+
+<!-- Banda animada -->
+<div class="marquee" aria-hidden="true">
+  <div class="lc-left"><span data-i18n="marquee"></span><span data-i18n="marquee"></span></div>
+  <div class="lc-right accent"><span data-i18n="marquee2"></span><span data-i18n="marquee2"></span></div>
+</div>
+
+<!-- Carta -->
+<section id="carte" class="section wrap">
+  <div class="section-head lc-rv">
+    <p class="eyebrow" data-i18n="flavorsEyebrow"></p>
+    <h2 class="lc-wipe" data-i18n="flavorsTitle"></h2>
+  </div>
+  <div class="flavor-grid" id="flavorCards"></div>
+</section>
+
+<!-- Coup de cœur -->
+<section class="spot wrap">
+  <div class="spot-photo lc-grow">
+    <img class="lc-par" id="spotImg" src="assets/pistache.jpg" alt="" loading="lazy">
+  </div>
+  <div class="spot-text">
+    <svg class="spark lc-tw" style="right:0;top:-20px;width:48px" viewBox="0 0 40 40" aria-hidden="true"><use href="#spark"/></svg>
+    <p class="eyebrow lc-rv" data-i18n="spotEyebrow"></p>
+    <h2 class="spot-name lc-wipe" id="spotName"></h2>
+    <p class="spot-desc lc-rv lc-d2" data-i18n="spotText"></p>
+    <div class="spot-buy lc-rv lc-d3">
+      <span class="spot-price" id="spotPrice"></span>
+      <a href="#commande" class="btn btn-clay btn-lg lc-btn" data-pick="pistache" data-i18n="spotCta"></a>
+    </div>
+  </div>
+</section>
+
+<!-- Toppings -->
+<section id="toppings" class="toppings wrap">
+  <div class="toppings-head">
+    <div>
+      <p class="eyebrow gold lc-rv" data-i18n="topEyebrow"></p>
+      <h2 class="lc-wipe" data-i18n="topTitle"></h2>
+    </div>
+    <p class="toppings-lead lc-rv" id="topLead"></p>
+  </div>
+  <div class="toppings-grid" id="toppingGroups"></div>
+</section>
+
+<!-- Frase que se rellena -->
+<section class="fill-band wrap" data-i18n-aria="fillLabel">
+  <p class="lc-fill" data-i18n="fill"></p>
+  <svg class="spark lc-tw" style="right:var(--gutter);top:30px;width:56px" viewBox="0 0 40 40" aria-hidden="true"><use href="#spark"/></svg>
+  <svg class="spark lc-tw lc-tw3" style="right:calc(var(--gutter) + 80px);top:110px;width:34px" viewBox="0 0 40 40" aria-hidden="true"><use href="#spark"/></svg>
+</section>
+
+<!-- Pedido -->
+<section id="commande" class="section order-section">
+  <div class="wrap order-inner">
+    <div class="section-head lc-rv">
+      <p class="eyebrow" data-i18n="orderEyebrow"></p>
+      <h2 class="lc-wipe" data-i18n="orderTitle"></h2>
+    </div>
+    <div class="order-layout">
+      <div class="configurator lc-rv">
+        <div class="preview">
+          <div class="preview-box"><img id="previewImg" class="lc-swap" src="assets/basque.jpg" alt=""></div>
+          <div class="preview-text">
+            <strong class="preview-title" id="previewTitle"></strong>
+            <span class="preview-sub" id="previewSub"></span>
+          </div>
+        </div>
+        <div class="steps">
+          <fieldset>
+            <legend data-i18n="step1"></legend>
+            <div class="opt-grid" id="flavorOpts"></div>
+          </fieldset>
+          <fieldset>
+            <legend data-i18n="step3"></legend>
+            <div class="topping-head"><span id="toppingHint"></span><strong id="toppingCount"></strong></div>
+            <div class="chips" id="toppingChips"></div>
+          </fieldset>
+          <div class="add-row">
+            <div class="qty-wrap">
+              <span class="step-label" data-i18n="step4"></span>
+              <div class="stepper">
+                <button type="button" id="qtyDec" data-i18n-aria="remove1">−</button>
+                <span id="qty">1</span>
+                <button type="button" id="qtyInc" data-i18n-aria="add1">+</button>
+              </div>
+            </div>
+            <button type="button" class="btn btn-clay btn-lg lc-btn" id="addToCart"></button>
+          </div>
+          <p class="muted small-note" data-i18n="entiereNote"></p>
+        </div>
+      </div>
+
+      <aside class="cart" id="cart" aria-live="polite">
+        <div class="cart-head">
+          <h2 data-i18n="cartTitle"></h2>
+          <span class="cart-count"><span class="js-count">0</span> <span data-i18n="items"></span></span>
+        </div>
+
+        <div id="cartPlaced" hidden>
+          <div class="placed-mascot"><img class="lc-bob" src="assets/mascotte.png" alt="" width="136" height="135"></div>
+          <h3 data-i18n="placedTitle"></h3>
+          <p data-i18n="placedText"></p>
+          <button type="button" class="btn btn-ghost-light" id="reset" data-i18n="again"></button>
+        </div>
+
+        <p id="cartEmpty" class="cart-empty" data-i18n="empty" hidden></p>
+
+        <form id="cartForm" novalidate hidden>
+          <ul class="cart-lines" id="cartLines"></ul>
+          <div class="mode" role="radiogroup" data-i18n-aria="modeLabel">
+            <button type="button" role="radio" data-mode="retrait" data-i18n="pickup"></button>
+            <button type="button" role="radio" data-mode="livraison" data-i18n="delivery"></button>
+          </div>
+          <label><span data-i18n="name"></span><input type="text" id="fName" autocomplete="name" data-i18n-ph="namePh" required></label>
+          <label><span data-i18n="phone"></span><input type="tel" id="fPhone" autocomplete="tel" placeholder="+212 6…" required></label>
+          <label><span data-i18n="time"></span><input type="datetime-local" id="fTime" step="900" required></label>
+          <label id="addrField" hidden><span data-i18n="address"></span><input type="text" id="fAddr" autocomplete="street-address" data-i18n-ph="addressPh"></label>
+          <div class="totals">
+            <div><span data-i18n="subtotal"></span><span id="subtotal"></span></div>
+            <div><span data-i18n="deliveryFee"></span><span id="delivery"></span></div>
+            <div class="grand"><span data-i18n="total"></span><span id="total"></span></div>
+          </div>
+          <p class="form-error" id="formError" role="alert" hidden></p>
+          <button type="submit" class="btn btn-saffron btn-lg lc-btn" data-i18n="confirm"></button>
+          <button type="submit" class="btn btn-wa btn-md lc-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.6-4.7A9 9 0 1 1 8 20.2L3 21z"/></svg>
+            <span data-i18n="sendWa"></span>
+          </button>
+          <p class="pay-note" data-i18n="payNote"></p>
+        </form>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- Cómo pedir -->
+<section class="section wrap">
+  <h2 class="lc-rv" data-i18n="howTitle"></h2>
+  <div class="how-grid">
+    <div class="how lc-rv"><div class="lc-line"></div><span class="num">01</span><h3 data-i18n="s1t"></h3><p data-i18n="s1"></p></div>
+    <div class="how lc-rv lc-d2"><div class="lc-line"></div><span class="num">02</span><h3 data-i18n="s2t"></h3><p data-i18n="s2"></p></div>
+    <div class="how lc-rv lc-d3"><div class="lc-line"></div><span class="num">03</span><h3 data-i18n="s3t"></h3><p data-i18n="s3"></p></div>
+  </div>
+</section>
+
+<!-- Encargos especiales / WhatsApp -->
+<div class="wrap wa-wrap">
+  <section id="contact" class="wa-band lc-rv">
+    <div class="wa-brand lc-sl">
+      <span class="wa-brand-la">La</span>
+      <span class="wa-brand-name">Cheesequerie</span>
+      <span class="wa-brand-city">Tanger</span>
+      <svg class="spark lc-tw wa-s1" viewBox="0 0 40 40" aria-hidden="true"><use href="#spark-light"/></svg>
+    </div>
+    <div class="wa-text">
+      <h2 data-i18n="waTitle"></h2>
+      <p data-i18n="waText"></p>
+    </div>
+    <a href="#" target="_blank" rel="noopener" class="wa-cta js-wa" data-i18n-aria="waCta">
+      <span class="lc-wa">
+        <svg width="46" height="46" viewBox="0 0 32 32" aria-hidden="true"><path fill="#fff" d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 6.9L3 29l6.5-2c1.9 1 4.1 1.6 6.5 1.6 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.3c-2.1 0-4.1-.6-5.8-1.7l-.4-.3-3.9 1.2 1.2-3.8-.3-.4c-1.2-1.8-1.9-3.8-1.9-6 0-5.9 4.8-10.6 10.9-10.6S26.9 9.5 26.9 15.5 22 26.3 16 26.3z"/><path fill="#fff" d="M22 18.6c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.7 5.8 5.1 2.9 1.1 3.4.9 4 .8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+      </span>
+      <span class="wa-cta-label" data-i18n="waCta"></span>
+    </a>
+  </section>
+</div>
+
+<!-- Tienda -->
+<section id="boutique" class="section wrap shop">
+  <div class="shop-info lc-sl">
+    <p class="eyebrow" data-i18n="shopEyebrow"></p>
+    <h2 data-i18n="shopTitle"></h2>
+    <div class="shop-grid">
+      <div><span class="label" data-i18n="addrLabel"></span><span class="js-address"></span><span data-i18n="city"></span></div>
+      <div><span class="label" data-i18n="hoursLabel"></span><span data-i18n="hoursVal"></span><span data-i18n="closed"></span></div>
+      <div><span class="label">WhatsApp</span><a href="#" target="_blank" rel="noopener" class="js-wa js-wa-number"></a></div>
+      <div><span class="label">Instagram</span><a href="#" target="_blank" rel="noopener" class="js-insta"></a></div>
+    </div>
+  </div>
+  <div class="map lc-rv">
+    <!-- Sustituye este bloque por el <iframe> de Google Maps de la tienda (ver README) -->
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+    <span data-i18n="map"></span>
+  </div>
+</section>
+</main>
+
+<!-- Botón flotante -->
+<a href="#commande" class="float-cta lc-btn" id="floatCta">
+  <svg width="18" height="18" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 2 C22 14 26 18 38 20 C26 22 22 26 20 38 C18 26 14 22 2 20 C14 18 18 14 20 2Z" fill="#FCD077"/></svg>
+  <span data-i18n="floatCta"></span>
+</a>
+
+<footer class="footer wrap">
+  <span class="wordmark light"><em>La</em> Cheesequerie</span>
+  <span data-i18n="footer"></span>
+  <span>© <span id="year"></span> La Cheesequerie</span>
+</footer>
+
+<!-- Destello reutilizable -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <path id="spark" d="M20 2 C22 14 26 18 38 20 C26 22 22 26 20 38 C18 26 14 22 2 20 C14 18 18 14 20 2Z" fill="#FCD077" stroke="#4A0E0E" stroke-width="2.5" stroke-linejoin="round"/>
+    <path id="spark-light" d="M20 2 C22 14 26 18 38 20 C26 22 22 26 20 38 C18 26 14 22 2 20 C14 18 18 14 20 2Z" fill="#FFF6E0" stroke="#4A0E0E" stroke-width="2.5" stroke-linejoin="round"/>
+  </defs>
+</svg>
+
+<script src="app.js"></script>
+</body>
+</html>
